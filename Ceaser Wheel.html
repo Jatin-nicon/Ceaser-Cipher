@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Caesar Cipher Wheel</title>
+  <link rel="stylesheet" href="ceaser.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="outer-wheel">
+      <li><div class="char"><p>A</p></div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>B</p></div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>C</p></div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>D</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>E</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>F</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>G</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>H</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>I</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>J</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>K</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>L</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>M</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>N</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>O</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>P</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>Q</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>R</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>S</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>T</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>U</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>V</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>W</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>X</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>Y</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>Z</p>
+      </div><div class="slice"></div>
+      </li>
+    </div>
+    <div class="hide-wheel"></div>
+    <div onmousemove="m(event)" class="inner-wheel">
+     
+      <li><div class="char"><p>A</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>B</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>C</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>D</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>E</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>F</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>G</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>H</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>I</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>J</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>K</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>L</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>M</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>N</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>O</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>P</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>Q</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>R</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>S</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>T</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>U</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>V</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>W</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>X</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>Y</p>
+      </div><div class="slice"></div>
+      </li>
+      <li><div class="char"><p>Z</p>
+      </div><div class="slice"></div>
+      </li>
+      <div class="scroll">scroll</div>
+      <div class="wheel-center">
+   
+    </div>
+      </div>
+      <div class="key-info">
+        <h1>Enter the key: <br> <input placeholder="0" type="number" class="key"> <br>  </h1>
+      </div>
+    </div>
+  
+  </div>
+</div>
+  
+<script src="script.js"></script>
+
+</body>
+</html>
